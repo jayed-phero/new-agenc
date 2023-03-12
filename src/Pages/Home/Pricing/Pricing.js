@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Pricing = () => {
+    const pricing = [
+        {
+            offerName: "Casual"
+        },
+        {
+            offerName: "Professional"
+        },
+        {
+            offerName: "Expert"
+        }
+    ]
     return (
         <div>
             <div class="bg-white dark:bg-gray-900">
@@ -12,9 +23,9 @@ const Pricing = () => {
                     </p>
 
                     <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0 mt-8">
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-gray-700">
+                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-purple-400 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-purple-700">
                             <div class="flex-shrink-0">
-                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-purple-800 uppercase rounded-lg bg-purple-100 dark:bg-gray-700">
                                     Casual
                                 </h2>
                             </div>
@@ -39,14 +50,14 @@ const Pricing = () => {
                                 </li>
                             </ul>
 
-                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-purple-500 rounded-lg hover:bg-purple-700 focus:outline-none">
                                 Start free
                             </button>
                         </div>
 
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-gray-700">
+                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-purple-200 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-purple-700">
                             <div class="flex-shrink-0">
-                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-purple-800 uppercase rounded-lg bg-purple-100 dark:bg-gray-700">
                                     Professional
                                 </h2>
                             </div>
@@ -79,14 +90,14 @@ const Pricing = () => {
                                 </li>
                             </ul>
 
-                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-purple-500 rounded-lg hover:bg-purple-700 focus:outline-none">
                                 Start free trial
                             </button>
                         </div>
 
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-gray-700">
+                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-purple-200 rounded-lg lg:mx-4 dark:bg-gray-900 hover:border-purple-700">
                             <div class="flex-shrink-0">
-                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-purple-800 uppercase rounded-lg bg-purple-100 dark:bg-gray-700">
                                     Expert
                                 </h2>
                             </div>
@@ -123,7 +134,7 @@ const Pricing = () => {
                                 </li>
                             </ul>
 
-                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none">
+                            <button class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-purple-500 rounded-lg hover:bg-purple-700 focus:outline-none">
                                 Start free trial
                             </button>
                         </div>

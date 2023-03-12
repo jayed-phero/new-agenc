@@ -39,29 +39,37 @@ const Services = () => {
 
     const services = [
         {
-            logo:  <i class="fa-solid fa-desktop"></i>,
+            logo: <i class="fa-solid fa-desktop"></i>,
             title: "Web Development",
             desc: ""
         },
         {
-            logo:  <i class="fa-solid fa-bag-shopping"></i>,
+            logo: <i class="fa-solid fa-bag-shopping"></i>,
             title: "eCommerce",
             desc: ""
         },
         {
-            logo:  <i class="fa-solid fa-chart-simple"></i>,
+            logo: <i class="fa-solid fa-chart-simple"></i>,
             title: "Digital Marketing",
             desc: ""
         },
         {
-            logo:  <i class="fa-solid fa-chart-line"></i>,
+            logo: <i class="fa-solid fa-chart-line"></i>,
             title: "SEO Optimization",
             desc: ""
         },
     ]
     return (
         <div className='py-7 md:py-11'>
-            <div className='max-w-7xl mx-auto px-5 xl:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 '>
+            <div class="text-center">
+            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Our Services</h1>
+
+            <p class="max-w-lg mx-auto mt-4 text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt, laudantium
+                quia tempore delect
+            </p>
+        </div>
+            <div className='max-w-7xl mx-auto px-5 xl:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-8'>
                 {
                     services.map(service =>
                         <div className='w-full border border-purple-800 group flex flex-col items-center justify-center p-11 hover:bg-purple-800 cursor-pointer '>

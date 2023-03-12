@@ -1,18 +1,16 @@
 import React from 'react';
+import Heading from '../../../components/Heading';
 import './Portfolio.css'
 
 const Portfolio = () => {
     return (
         <div>
-            <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-6xl xl:px-0 px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Portfolio
-        </h1>
-
-        <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
-        </p>
-
+            <section class="bg-indigo-200 my-16 dark:bg-gray-900">
+            <Heading
+                    title={"Out Awesome Portfolio"}
+                />
+                <h3 className='lg:text-5xl font-bold text-3xl text-center '>See Our Awesome Portfolio</h3>
+    <div class="max-w-7xl xl:px-0 px-6 py-10 mx-auto">
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group ImageIII"

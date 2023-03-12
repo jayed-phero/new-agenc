@@ -1,0 +1,58 @@
+.awrapper {
+  /* background-image: url("../../../assets/awrapper.webp"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.shortDetails{
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background: #0d0b3a;
+  /* background-color: rgba(0, 0, 0, 0.6) */
+  /* background-image: url("../../../assets/awrapper.webp"); */
+}
+
+@media screen and (max-width: 800px){
+  .shortDetails{
+      height: auto;
+  }
+}
+.awe-color {
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+/* .awrapper .box {
+    padding: 70px 0;
+  } */
+/* .awrapper img {
+    margin-right: 30px;
+  } */
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*----------awrapper------------*/
+@media screen and (max-width: 768px) {
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+
+  .awrapper {
+    height: auto;
+    width: 100%;
+  }
+}

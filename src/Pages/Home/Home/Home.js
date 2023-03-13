@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Contact from '../Contact/Contact';
 import CTA from '../CTA/CTA';
 import HomeCon from '../HomeContent/HomeCon';
@@ -20,6 +21,7 @@ const Home = () => {
         <div>
             {/* <HomeContent /> */}
             <HomeCon />
+            <About/>
             <Service/>
             {/* <Services /> */}
             {/* <ShortDetails /> */}

@@ -83,14 +83,14 @@ const Testiminial = () => {
         {
           id: 3,
           name: "AMELEA DECIN",
-          post: "SECRETARY GENERAL",
+          post: "SECRETARY GENE",
           desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
           cover: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         },
         {
             id: 4,
             name: "ROGER SCOTT",
-            post: "MARKETING MANAGER",
+            post: "MARKETING MANA",
             desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
             cover: "https://images.unsplash.com/photo-1589386417686-0d34b5903d23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHByb2Zlc3Npb25hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
           },
@@ -106,7 +106,7 @@ const Testiminial = () => {
                 <Slider {...settings}>
                     {
                         testimonal.map(data =>
-                            <div class="p-12 border rounded-lg dark:border-gray-700 shadow-xl">
+                            <div class="p-7 md:p-12 border rounded-lg dark:border-gray-700 shadow-xl">
                                 <div className='h-12 w-12 mb-5 rounded-full bg-orange-400 text-white text-2xl font-bold flex items-center justify-center'>
                                 <i class="fa-solid fa-quote-right"></i>
                                 </div>
@@ -115,10 +115,10 @@ const Testiminial = () => {
                                 </p>
 
                                 <div class="flex items-center mt-8 -mx-2">
-                                    <img class="object-cover mx-2 rounded-full w-16 shrink-0 h-16 ring-4 ring-gray-300 dark:ring-gray-700" src={data.cover} alt="" />
+                                    <img class="object-cover mx-2 rounded-full md:w-16 shrink-0 md:h-16 h-11 w-11 ring-4 ring-gray-300 dark:ring-gray-700" src={data.cover} alt="" />
 
                                     <div class="mx-4">
-                                        <h1 class="font-semibold text-blue-500 text-xl dark:text-white">{data.name}</h1>
+                                        <h1 class="font-semibold text-blue-500 text-lg md:text-xl dark:text-white">{data.name}</h1>
                                         <span class="text-s text-gray-700 dark:text-gray-400">{data.post}</span>
                                     </div>
                                 </div>

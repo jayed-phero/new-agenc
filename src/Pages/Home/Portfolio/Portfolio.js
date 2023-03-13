@@ -5,7 +5,7 @@ import './Portfolio.css'
 const Portfolio = () => {
     return (
         <div>
-            <section class="bg-gray-900 dark:bg-gray-900 py-11">
+            <section class="portfolioBG dark:bg-gray-900 py-11">
                 <Heading
                     title={"Out Awesome Portfolio"}
                 />

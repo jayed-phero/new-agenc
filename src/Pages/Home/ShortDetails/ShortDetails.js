@@ -6,32 +6,33 @@ const ShortDetails = () => {
     const shortdata = [
         {
             id: 1,
-            cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-            data: "3000",
-            title: "SUCCESS STORIES",
+            cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
+           
+            data: "5",
+            title: "EXPERIENCE",
         },
 
         {
             id: 2,
             cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-            data: "320",
-            title: "TRUSTED TUTORS",
+            data: "25",
+            title: "TEAM MEMBER",
         },
         {
             id: 3,
             cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-            data: "1000",
-            title: "SCHEDULES",
+            data: "0251",
+            title: "SUCCESS PROJECTS",
         },
         {
             id: 4,
-            cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-            data: "587",
-            title: "COURSES",
+            cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+            data: "151",
+            title: "SATISFIED CLIENTS",
         },
     ]
     return (
-        <div className='shortDetails w-full'>
+        <div className='shortDetails bg-gray-900 w-full'>
           
             <div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9  px-5 xl:px-0 py-11 md:my-11'>
                 {

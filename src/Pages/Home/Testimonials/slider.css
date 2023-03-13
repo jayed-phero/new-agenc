@@ -1,0 +1,13 @@
+
+  .slick-slide > div {
+    margin: 25px 15px;
+
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+
+/* .info-card:hover{
+    transform: translate3d(0,-3px,0);
+    
+} */

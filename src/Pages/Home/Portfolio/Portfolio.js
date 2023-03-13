@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return (
-        <div>
+        <div id='portfolio'>
             <section class="portfolioBG dark:bg-gray-900 py-11">
                 <Heading
                     title={"Out Awesome Portfolio"}

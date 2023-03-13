@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import MoreButton from '../../components/MoreButton';
 
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
                     {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
                     <div class={`absolute text-xl font-semibold inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'}`}>
                         <div class="flex flex-col md:flex-row md:mx-6">
-                            <a class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#home">Home</a>
+                            <Link class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to='/'>Home</Link>
                             <a class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#services">Services</a>
                             <a class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#contact">Contact</a>
                             <a class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#about">About</a>
@@ -43,11 +44,11 @@ const Navbar = () => {
                         </div>
 
                         <div className='lg:hidden mt-5'>
-                            <MoreButton title={"Contact Us"} />
+                            <MoreButton title={"Contact Us"} link={'contact'}/>
                         </div>
                     </div>
                     <div className='hidden lg:block '>
-                        <MoreButton title={"Contact Us"} />
+                        <MoreButton title={"Contact Us"} link={'contact'}/>
                     </div>
                 </div>
             </nav >

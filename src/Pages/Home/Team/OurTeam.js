@@ -120,7 +120,7 @@ const OurTeam = () => {
     // <i class="fa-brands fa-linkedin-in"></i>,
     // <i class="fa-brands fa-facebook-f"></i>
     return (
-        <div className='max-w-7xl mx-auto px-5 xl:px-0 my-11 md:my-28'>
+        <div id='team' className='max-w-7xl mx-auto px-5 xl:px-0 my-11 md:my-28'>
             <Heading
                 title={"Our Team Member"}
             />

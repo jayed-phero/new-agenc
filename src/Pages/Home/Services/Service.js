@@ -42,7 +42,7 @@ const Service = () => {
     ]
     return (
         <div id='service'>
-            <div className='max-w-7xl mx-auto px-5 xl:px-0 my-16 md:mb-28'>
+            <div className='max-w-7xl mx-auto px-5 xl:px-0 my-16 md:my-20 md:mb-28'>
             <Heading
                     title={"Our Popular Services"}
                 />
